@@ -6,7 +6,7 @@
 # catalog-version 3.1.1
 Name:		texlive-fontawesome
 Version:	3.1.1
-Release:	1
+Release:	2
 Summary:	Font containing web-related icons
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/fontawesome
