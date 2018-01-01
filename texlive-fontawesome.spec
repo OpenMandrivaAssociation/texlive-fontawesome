@@ -1,12 +1,6 @@
-# revision 31020
-# category Package
-# catalog-ctan /fonts/fontawesome
-# catalog-date 2013-06-12 15:49:49 +0200
-# catalog-license other-free
-# catalog-version 3.1.1
 Name:		texlive-fontawesome
-Version:	3.1.1
-Release:	9
+Version:	4.6.3.2
+Release:	1
 Summary:	Font containing web-related icons
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/fontawesome
@@ -33,11 +27,13 @@ package, fontspec, running under XeTeX or LuaTeX.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/fonts/opentype/public/fontawesome/FontAwesome.otf
-%{_texmfdistdir}/tex/latex/fontawesome/fontawesome.sty
-%doc %{_texmfdistdir}/doc/latex/fontawesome/README
-%doc %{_texmfdistdir}/doc/latex/fontawesome/fontawesome.pdf
-%doc %{_texmfdistdir}/doc/latex/fontawesome/fontawesome.tex
+%{_texmfdistdir}/fonts/opentype/public/fontawesome
+%{_texmfdistdir}/tex/latex/fontawesome
+%{_texmfdistdir}/fonts/enc/dvips/fontawesome
+%{_texmfdistdir}/fonts/map/dvips/fontawesome
+%{_texmfdistdir}/fonts/tfm/public/fontawesome
+%{_texmfdistdir}/fonts/type1/public/fontawesome
+%doc %{_texmfdistdir}/doc/fonts/fontawesome
 
 #-----------------------------------------------------------------------
 %prep
