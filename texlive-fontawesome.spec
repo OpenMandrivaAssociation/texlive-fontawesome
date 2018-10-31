@@ -1,6 +1,6 @@
 Name:		texlive-fontawesome
 Version:	4.6.3.2
-Release:	1
+Release:	2
 Summary:	Font containing web-related icons
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/fontawesome
