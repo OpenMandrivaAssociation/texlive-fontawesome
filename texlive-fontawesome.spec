@@ -1,12 +1,12 @@
 Name:		texlive-fontawesome
-Version:	4.6.3.2
-Release:	2
+Version:	48145
+Release:	1
 Summary:	Font containing web-related icons
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/fontawesome
 License:	OTHER-FREE
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fontawesome.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fontawesome.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fontawesome.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fontawesome.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -18,12 +18,12 @@ icons provided by the included font. The package requires the
 package, fontspec, running under XeTeX or LuaTeX.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -37,7 +37,7 @@ package, fontspec, running under XeTeX or LuaTeX.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
