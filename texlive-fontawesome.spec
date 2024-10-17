@@ -3,7 +3,7 @@ Version:	48145
 Release:	2
 Summary:	Font containing web-related icons
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/fontawesome
+URL:		https://www.ctan.org/tex-archive/fonts/fontawesome
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fontawesome.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fontawesome.doc.r%{version}.tar.xz
